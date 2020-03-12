@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> can render to the DOM 1`] = `
+Array [
+  <header>
+    <h1>
+      To Do App
+    </h1>
+  </header>,
+  <section
+    className="todo"
+  >
+    <div>
+      <h3>
+        Add Item
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <label>
+          <span>
+            To Do Item
+          </span>
+          <input
+            name="text"
+            onChange={[Function]}
+            placeholder="Add To Do List Item"
+          />
+        </label>
+        <label>
+          <span>
+            Difficulty Rating
+          </span>
+          <input
+            defaultValue="3"
+            max="5"
+            min="1"
+            name="difficulty"
+            onChange={[Function]}
+            type="range"
+          />
+        </label>
+        <label>
+          <span>
+            Assigned To
+          </span>
+          <input
+            name="assignee"
+            onChange={[Function]}
+            placeholder="Assigned To"
+            type="text"
+          />
+        </label>
+        <label>
+          <span>
+            Due
+          </span>
+          <input
+            name="due"
+            onChange={[Function]}
+            type="date"
+          />
+        </label>
+        <button>
+          Add Item
+        </button>
+      </form>
+    </div>
+    <div>
+      <h2>
+        There are
+        <span>
+          0
+        </span>
+        Items To Complete
+      </h2>
+      <ul />
+    </div>
+  </section>,
+]
+`;
