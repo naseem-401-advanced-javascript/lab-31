@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/naseem-401-advanced-javascript/lab-31/issues"
   },
-  "homepage": "https://github.com/naseem-401-advanced-javascript/lab-31#readme",
+  "homepage": "https://github.com/naseem-401-advanced-javascript/lab-31",
   "dependencies": {
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
@@ -28,5 +28,17 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.0",
     "uuid": "^7.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
